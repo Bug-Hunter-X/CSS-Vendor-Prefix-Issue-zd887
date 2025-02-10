@@ -1,0 +1,18 @@
+/* bugSolution.css */
+/* Updated CSS without unnecessary vendor prefixes */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-color: lightblue; /* Removed -webkit- prefix */
+  border-radius: 10px; /* Removed -moz- and -webkit- prefixes */
+  transition: background-color 0.3s ease; /* Removed prefixes */
+}
+
+.box:hover {
+  background-color: darkblue; 
+}
+
+/* Other styles without unnecessary prefixes... */
